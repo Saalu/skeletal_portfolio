@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"> </script>
+</head>
+<body>
+ 
+    <!-- =============Sidebar =============== -->
+
+    <aside class="sidebar">
+        <nav>
+            <img src="image/five.jpg" height="200" width="200" alt="">
+            <a href="#home"><i class="material-icons md-36">home</i>
+            <p>Home</p>
+            </a>
+            <a href="#about"><i class="material-icons md-36">person</i>
+            <p>About</p>
+            </a>
+            <a href="#folio"><i class="material-icons md-36">image</i>
+            <p>Folio</p>
+            </a>
+            <a href="#contact"><i class="material-icons md-36">mail</i>
+            <p>Contact</p>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- =============Nav =============== -->
+    <nav class="mobile-nav">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#folio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <!-- =============Main =============== -->
+    <main>
+        <header class="home" id="home"><br><br>
+            <h1>I am Saalu Issaka</h1>
+            <h5>I build and design things for the web</h5>
+            <img src="image/five.jpg" height="200" width="200" alt="">
+
+        </header>
+    </main>
+
+    <!-- =============Section =============== -->
+    <section class="about" id="about">
+        <h2>About me</h2>
+        <p>
+            <span>Hello, I'm Saalu</span> I'm Designer and Developer, 
+            a life long learner, and ready for new opportunities. 
+            A bit about me, i public speaking, arts, teaching and all creative things.
+        </p>
+
+        <p>
+            I believe in user centered design and delivering the best possible
+            experiences to people. I have experience with HTML, CSS, Bootstrap, Material UI,
+            Flexbox, Grid-Css, JavaScript, Git , Github, Photoshop, Figma
+        </p>
+
+        <h3>My Skils</h3>
+        <p>HTML</p>
+        <div class="container">
+            <div class="skills figma">85%</div>
+        </div>
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills figma">65%</div>
+        </div>
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills figma">45%</div>
+        </div>
+
+    </section>
+
+
+    <!-- ==== Portfolio Area -->
+    <section class="folio" id="folio">
+
+        <h2>Portfolio </h2>
+        <div class="row">
+            <div class="col">
+                <img src="image/two.jpg" width="200" height="200" alt="">
+                <h3>Business</h3>
+                <p>
+                    Building Responsive and thoughtful sites for
+                    small and large business
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="image/two.jpg" width="200" height="200" alt="">
+                <h3>Business</h3>
+                <p>
+                    Building Responsive and thoughtful sites for
+                    small and large business
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+<!-- =====Contact Area ========= -->
+
+<section class="contact" id="contact">
+    <div class="contact-form">
+        <form action="#">
+            <div class="form-group">
+                <label >Name</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label >Email</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label >Message</label>
+                <input type="text">
+            </div>
+        </form>
+    </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
